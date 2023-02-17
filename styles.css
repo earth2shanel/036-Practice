@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 8vw;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 4vw;
+}
+
+.ball-and-answer {
+    position: relative;
+    display: flex;
+    /*     align-items: center; */
+    justify-content: center;
+}
+
+.answer {
+    font-weight: bold;
+    position: absolute;
+    max-width: 140px;
+    top: 90px;
+}
+
+.ball {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Averia Libre';
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+}
+
+.changeSize {
+    background-color: #8fb8f7;
+}
+
+.changeColor {
+    background-color: #e9f78f;
+}
+
+.sayWeather {
+    background-color: #f7da7c;
+}
+
+.sayCity {
+    background-color: #f277f0;
+}
+
+.changeText {
+    background-color: #6ff2e5;
+}
+
+.suggestLunch {
+    background-color: #f578b8;
+}
+
+.sayNumber {
+    background-color: #f7f560;
+}
+
+.changePicture {
+    background-color: #96e3ff;
+}
+
+body,
+button {
+    font-family: 'Averia Libre';
+}
